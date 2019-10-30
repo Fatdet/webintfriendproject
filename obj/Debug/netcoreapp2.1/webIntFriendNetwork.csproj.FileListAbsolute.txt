@@ -1,0 +1,11 @@
+D:\GitSources\webint\webIntFriendNetwork\bin\Debug\netcoreapp2.1\webIntFriendNetwork.deps.json
+D:\GitSources\webint\webIntFriendNetwork\bin\Debug\netcoreapp2.1\webIntFriendNetwork.runtimeconfig.json
+D:\GitSources\webint\webIntFriendNetwork\bin\Debug\netcoreapp2.1\webIntFriendNetwork.runtimeconfig.dev.json
+D:\GitSources\webint\webIntFriendNetwork\bin\Debug\netcoreapp2.1\webIntFriendNetwork.dll
+D:\GitSources\webint\webIntFriendNetwork\bin\Debug\netcoreapp2.1\webIntFriendNetwork.pdb
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.csprojAssemblyReference.cache
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.csproj.CoreCompileInputs.cache
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.AssemblyInfoInputs.cache
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.AssemblyInfo.cs
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.dll
+D:\GitSources\webint\webIntFriendNetwork\obj\Debug\netcoreapp2.1\webIntFriendNetwork.pdb
