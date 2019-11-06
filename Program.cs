@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace webIntFriendNetwork
 {
@@ -6,7 +7,10 @@ namespace webIntFriendNetwork
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var ur = new UserReader();
+            ur.readFromFile();
         }
+
+        
     }
 }
