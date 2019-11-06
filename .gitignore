@@ -34,6 +34,10 @@ msbuild.err
 msbuild.wrn
 
 # Visual Studio 2015
+<<<<<<< HEAD
 .vs/
 
 *.txt
+=======
+.vs/
+>>>>>>> 552dece4ab67d4487f149e611f87831917e5919e
