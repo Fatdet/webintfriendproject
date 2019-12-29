@@ -9,8 +9,7 @@ namespace webIntFriendNetwork
         {
             var ur = new UserReader();
             ur.readFromFile();
+            var sim = new Clustering(ur.Users, ur.AdjacencyMatrix);
         }
-
-        
     }
 }

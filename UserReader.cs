@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace webIntFriendNetwork
 {
@@ -13,9 +14,7 @@ namespace webIntFriendNetwork
         }
         public void readFromFile()
         {
-            string[] friendshipsreviews = System.IO.File.ReadAllLines(@"../../../friendships.reviews.txt");
-            int l = friendshipsreviews.Length + 1 / 5;
-            AdjacencyMatrix = new int[l, l];
+            string[] friendshipsreviews = System.IO.File.ReadAllLines(@"friendships.reviews.txt");
             for (int i = 0; i < friendshipsreviews.Length; i += 5)
             {
                 Users.Add(
@@ -27,6 +26,8 @@ namespace webIntFriendNetwork
                     )
                 );
             }
+            int l = Users.Count;
+            AdjacencyMatrix = new int[l, l];
 
             foreach (User user in Users)
             {
@@ -39,14 +40,9 @@ namespace webIntFriendNetwork
                             user.Friends.Add(friend);
                             AdjacencyMatrix[user.UserId, friend.UserId] = 1;
                         }
-                        else
-                        {
-                            AdjacencyMatrix[user.UserId, friend.UserId] = 0;
-                        }
                     }
                 }
             }
-
         }
     }
 }

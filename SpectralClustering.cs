@@ -18,20 +18,21 @@ namespace webIntFriendNetwork
             ComputeDiag(adjacencyMatrix);
         }
 
+
         public void ComputeDiag(int[,] adjacencyMatrix)
         {
             int temp = 0;
-            for(int i = 0; i<adjacencyMatrix.Length; i++)
+            for (int i = 0; i < adjacencyMatrix.Length; i++)
             {
                 temp = 0;
-                for(int k = 0; k<adjacencyMatrix.Length; k++)
+                for (int k = 0; k < adjacencyMatrix.Length; k++)
                 {
-                    temp = i + k + temp; 
+                    temp = i + k + temp;
                 }
                 Diagonal[i] = temp;
             }
         }
-        
+
 
 
     }
